@@ -1,0 +1,190 @@
+.ick-albumlist
+  width 100%
+  .ick-album__header
+    position relative
+    padding .3rem .1rem .3rem .15rem
+    overflow hidden
+    width 100%
+    .ablum-bg
+      background-repeat no-repeat
+      background-size cover
+      background-position 50%
+      filter blur(.2rem)
+      transform scale(1.5)
+      background-image url('../images/album_header_bg.jpeg')
+      &::after
+        content " "
+        background-color rgba(0,0,0,.25)
+        position absolute
+        left 0
+        top 0
+        right 0
+        bottom 0
+        z-index 1
+    .album-content
+      position absolute
+      left 0
+      top 0
+      right 0
+      bottom 0
+      z-index 1
+    .album-wrapper
+      position relative
+      z-index 2
+      align-items flex-start
+      .cover-image
+        width 1.26rem
+        height 1.26rem
+    .album-desc
+      flex 1 1 auto
+      width 1%
+      margin-left .16rem
+      .album-name
+        font-size 0.17rem
+        padding-top 1px
+        line-height 1.3
+        color #fefefe
+        height .44rem
+        display -webkit-box
+        -webkit-box-pack center
+        -webkit-box-orient vertical
+      .album-logo
+        display block
+        position relative
+        margin-top .2rem
+        color hsla(0,0%,100%,.7)
+        .album-avatar
+          position relative
+          display inline-block
+          margin-right 0.05rem
+          .album-avatar__img
+            border-radius 50%
+            width .3rem
+            height .3rem
+            vertical-align middle
+          .avatar-icon
+            position absolute
+            right -.05rem
+            bottom 0
+            width .12rem
+            height .12rem
+            background-image url('../images/usericn_2x.png')
+            background-repeat no-repeat
+            background-size .75rem auto
+          .icon-bg
+            background-position 0 0
+  .ick-album__intro
+    position relative
+    margin 0 .1rem 0.18rem .15rem
+    padding-top .1rem
+    line-height .19rem
+    color #666
+    .album-tags
+      .label-items
+        margin-bottom .1rem
+        line-height .2rem
+        margin-right -.1rem
+        .tag-item
+          display inline-block
+          position relative
+          margin-right .1rem
+          padding .01rem .08rem
+          font-size .12rem
+          &::after
+            border-radius 99.99rem
+            position absolute
+            z-index 2
+            content ""
+            top 0
+            left 0
+            pointer-events none
+            box-sizing border-box
+            width 100%
+            height 100%
+            transform-origin top left
+            border 0.01rem solid rgba(0,0,0,.1)
+      .desc
+        display flex
+        .desc__info
+          width 0
+          flex 1
+          &.zankai
+            white-space normal
+  .ick-album__tracks
+    .track-item
+      .track-count
+        text-align center
+        display inline-block
+        width .4rem
+        font-size .17rem
+        color #999
+      .track-content
+        padding .06rem 0
+        width 0
+        flex 1 1 auto
+        border-bottom 1px solid #ebebeb
+        .track-wrapper
+          flex 1 1 auto
+          width 0
+          .track-name
+            display block
+            font-size .17rem
+          .track-info
+            display block
+            font-size .12rem
+            color #888888
+        .track-player
+          display inline-block
+          padding 0 .1rem
+          .player-bg
+            background url(../images/index_icon_2x.png) no-repeat
+            background-size 1.66rem .97rem
+          .player-icon
+            display inline-block
+            width .22rem
+            height .22rem
+            background-position -.24rem 0
+  .ick-album__comments
+    .comment-item
+      padding-top .1rem
+      display flex
+      .user-avatar
+        height .35rem
+        flex none
+        margin 0 .1rem
+        .avatar-img
+          display block
+          border-radius 50%
+          width .3rem
+          height .3rem
+      .comment-wrapper
+        position relative
+        padding-right .1rem
+        padding-bottom .11rem
+        border-bottom 1px solid #ebebeb
+        .comment-user
+          font-size .14rem
+          color #666666
+          .comment-date
+            color #999999
+            font-size .09rem
+        .like-count
+          display inline-block
+          position absolute
+          color #999999
+          font-size .11rem
+          right .1rem
+          top 0
+          .icon
+            display inline-block
+            width .14rem
+            height .14rem
+            margin-left .06rem
+            line-height 0
+            cursor pointer
+        .comment-content
+          color #333
+          font-size .15rem
+          line-height .22rem
+          margin-top .05rem
+      

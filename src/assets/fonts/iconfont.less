@@ -1,0 +1,10 @@
+@import './iconfont.css';
+
+:global(.iconfont) {/* :global() 是为了覆盖全局class .anticon 的样式 */
+  &::before {
+    font-family: 'anticon', 'iconfont' !important;
+    /* 默认样式是这样
+        font-family: "anticon" !important;
+    */
+  }
+}

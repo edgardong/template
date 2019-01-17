@@ -1,0 +1,23 @@
+.ick-common__flex {
+  display: flex;
+  align-items: center;
+}
+
+.ick-common__flex1 {
+  flex: 1;
+}
+
+.ick-common__thide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+
+.ick-commomn__absolute0 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

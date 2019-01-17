@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "result": {
+    "hots": [
+      {
+        "first": "海王",
+        "second": 1,
+        "third": null,
+        "iconType": 2
+      },
+      {
+        "first": "陈奕迅",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "乐华七子",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "RADWIMPS",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "起风了",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "金唱片大赏投票",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "张楚新歌",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "年终榜单票选",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "少年音乐大战",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      },
+      {
+        "first": "Alan Walker新歌",
+        "second": 1,
+        "third": null,
+        "iconType": 0
+      }
+    ]
+  }
+}
